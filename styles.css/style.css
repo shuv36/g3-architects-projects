@@ -139,9 +139,6 @@ main>section{
 .quick-lisht .para-part{
     width: 468px;
     height: 168px;
-
-    
-
 }
 
 
@@ -167,9 +164,17 @@ main>section{
 /* resposibe midea quiry */
 
 @media screen and ( max-width: 576px) {
-    .navbar, .nav-link{
+    .navbar, 
+    .nav-link,
+    .Features-section
+    {
 
         flex-direction: column;
     }
 
+    .image-containar{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
 }
