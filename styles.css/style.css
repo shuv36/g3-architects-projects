@@ -7,3 +7,169 @@
   font-weight: 400 ;
   font-style: normal;
 }
+
+*{
+    margin: 0 ;
+}
+
+
+
+/* common class shared style  */
+.disflex{
+    display: flex;
+}
+
+.btn-primary{
+
+    color: white;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+font-weight: 600;    
+}
+
+
+
+/* background color head section */
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* font colour  dark2 */
+.dark2{
+    color: #424242;
+}
+
+/*  dark1 colour */
+
+.dark1{
+    color: #131313;
+}
+
+/* full display withd*/
+
+.navbar, .banner, .main-containar{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* this is uesing for gap betwin in two layers */
+main>section{
+    margin-top: 130px;
+}
+
+.brand{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.navbar .nav-link{
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+   padding: 1rem;
+
+   
+}
+
+/* bannar reletaed containar  */
+.banner-containt{
+
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+
+.banner-taitel{
+
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 25px;
+
+}
+
+.banner-pera-containar{
+
+    margin-bottom: 32px;
+}
+.banner-image{
+    width: 100%;
+
+}
+
+/* this section use for 2nd pera */
+
+.Features-section{
+    display: flex;
+    align-items: center;
+    
+}
+
+.image-containar{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px ;
+}
+
+.features-containar{
+
+    margin-left: 73px;
+}
+
+.quick-lisht{
+    width: 468px;
+    height: 140px;
+    
+
+}
+.quick-lisht .para-part{
+    width: 468px;
+    height: 168px;
+
+    
+
+}
+
+
+
+.quick-lisht .part1{
+        font-weight: 500px;
+        font-size: 45px;
+        color: #727272;
+        
+}
+.quick-lisht .part2{
+      font-weight: 700px;
+        font-size: 45px;
+}
+
+.quick-lisht .part3{
+      font-weight: 700px;
+        font-size: 45px;
+        color: #FF900E;
+}
+
+
+/* resposibe midea quiry */
+
+@media screen and ( max-width: 576px) {
+    .navbar, .nav-link{
+
+        flex-direction: column;
+    }
+
+}
